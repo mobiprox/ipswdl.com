@@ -144,14 +144,13 @@ Using this endpoint should output;
   "ota_link": "https://updates.cdn-apple.com/2023FallFCS/patches/042-36585/9E312096-19E5-4A1A-8231-899D39C645DD/com_apple_MobileAsset_SoftwareUpdate/eb013325201f6e67f5644d4a610b20d7e48272b6.zip"
 }
 ```
+
 ## Getting IPSW firmware
 You can get IPSW firmware for iPhones, iPads, Macs and other iDevices using the following endpoint:
 ### All ipsw for a given devices
 > /ipsw/{identifier}
 
 You will get responses like 
-```
-
 ```
 {
   "deviceName": "iPad Pro (12.9-inch) (6th generation)",
@@ -189,6 +188,7 @@ You will get responses like
       "releaseDate": "December 11, 2023"
     },
 ```
+
 ### Geeting details for a specific buildid
 
 >/ipsw/{identifier}/{buildid}
